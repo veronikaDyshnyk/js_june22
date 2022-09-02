@@ -1,0 +1,17 @@
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+.commentsWrap{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comment{
+
+    margin-top: 20px;
+    width: 23%;
+    border: 2px solid #a6d0f8;
+    box-sizing: border-box;
+
+}

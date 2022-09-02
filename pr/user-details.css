@@ -1,0 +1,30 @@
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+
+
+.button {
+    width: 90%;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapPosts {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner {
+    width: 19%;
+    height: 100px;
+
+    box-sizing: border-box;
+    border: gainsboro solid 2px;
+    text-align: center;
+
+    margin-top: 10px;
+}
